@@ -33,19 +33,21 @@ This repository provides a Docker Compose setup for running a self-hosted monito
 
 4.  **Start the application:**
     ```bash
-    ./restart-docker.sh
+    docker compose up -d
     ```
 
-5.  **Update the application:**
-    ```bash
-    ./update-docker.sh
-    ```
-    This will pull the latest Docker images and restart the services.
-
-## Accessing Services
+5.  **Access the application:**
 
 -   **Prometheus**: [http://localhost:9090](http://localhost:9090)
 -   **Grafana**: [http://localhost:3000](http://localhost:3000)
+
+## Usage
+
+The repository includes several scripts to simplify management:
+
+-   **Start:** `docker compose up -d`
+-   **Restart:** `./restart-docker.sh`
+-   **Update:** `./update-docker.sh` (Pulls the latest Docker images and restarts the services)
 
 ## Services
 
