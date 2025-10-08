@@ -1,5 +1,7 @@
 # Monitoring Self-Hosted with Docker
 
+![monitoring-self-hosted](https://repository-images.githubusercontent.com/1071081304/6d5bae53-79d2-49ae-bd27-0aca2f91e976)
+
 This repository provides a Docker Compose setup for running a self-hosted monitoring stack using [Prometheus](https://prometheus.io/) and [Grafana](https://grafana.com/).
 
 ## Features
