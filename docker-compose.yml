@@ -1,3 +1,4 @@
+name: monitoring
 services:
   prometheus:
     container_name: prometheus
