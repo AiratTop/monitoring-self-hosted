@@ -32,6 +32,7 @@ This repository provides a Docker Compose setup for running a self-hosted monito
 
 3.  **Configure the environment:**
     The `.env` file contains the default admin credentials for Grafana. You can change them if you wish.
+    You can use my Open Source [password generator](https://pass.airat.top) to create a strong password.
 
 4.  **Start the application:**
     ```bash
